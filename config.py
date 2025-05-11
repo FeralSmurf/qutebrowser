@@ -29,3 +29,9 @@ config.set("content.cookies.accept", "all", "*://*.claude.ai/*")
 # Enable scrollbars
 # config.set("scrolling.bar", "always")
 c.scrolling.bar = "always"
+
+# Resume from where you left off
+c.auto_save.session = True
+
+# No crash reports:
+c.qt.args = ['no-err-writer']

@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  content.notifications.enabled:
-    https://coolrom.com.au: false
+  content.javascript.clipboard:
+    https://chat.deepseek.com: access-paste
